@@ -1,4 +1,8 @@
-# Send to qBittorrent
+# Send to qBittorrent (with categories)
+
+> **This is a modified fork** of [Send to qBittorrent](https://github.com/frogmech) by [frogmech](https://github.com/frogmech) (original author). All credit for the original extension goes to them.
+>
+> **What's different:** the right-click menu is a submenu listing your qBittorrent categories (fetched live from the WebUI API). Picking one adds the torrent with that category and enables Automatic Torrent Management, so it downloads to the category's save path. "(no category)" keeps the original behaviour. Left-click-send still adds without a category.
 
 This extension integrates with your qBittorrent client via the WebUI API, allowing you to quickly add torrent and magnet links. It features a user-friendly interface to configure your API credentials.
 
@@ -8,6 +12,8 @@ Click on the extension's icon to open the config menu and enter your API credent
 
 ### IMPORTANT:
 You **must** disable Cross-Site Request Forgery (CSRF) protection in qBittorrent for the API calls to work properly. You can either disable it manually in your qBittorrent settings or use the **"Disable CSRF"** button in the extension's UI after entering your API credentials.
+
+# Original extension (by frogmech, without categories)
 
 # [Click to install](https://addons.mozilla.org/firefox/downloads/file/4542421/send_to_qbittorrent-1.3.0.xpi)
 

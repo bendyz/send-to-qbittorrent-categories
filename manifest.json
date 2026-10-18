@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Send to qBittorrent",
+  "name": "Send to qBittorrent (with categories)",
   "version": "1.2.0",
   "description": "Send torrent/magnet links to qBittorrent from the right-click context menu",
   "author": "https://github.com/frogmech",
